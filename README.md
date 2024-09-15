@@ -29,7 +29,7 @@ This line is a condition that checks if the age is greater than or equal to 18. 
 Age=x;
 This line shows age as x.
 
-# if(y<21) { revert ("Minimum  rating should be 21");
+# if(y<21) { revert ("Minimum  age should be 21");
 This line checks if the Education qualification is less than 10. If it is, the function will revert the transaction and display the error message "minimum class should be 10 to create account".
 
 # assert(owner==0x5B38Da6a701c568545dCfcB03FcB875f56beddC4);
