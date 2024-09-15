@@ -4,22 +4,22 @@ pragma solidity 0.8.18;
 //write a smart contract that implements the require(), assert() and revert() statements.
 
 // Creating a contract
-contract voterid {
+contract employment {
     
-    uint public age;
+    uint public exp;
     address public owner = msg.sender;
 
-    // This is a function to check eligible age
-    function find_age(uint x) public{
-        require(x>=18,"Age must be atleast 18");
-        age=x;
+    // This is a function to check experience of a driver
+    function driving_experience(uint x) public{
+        require(x>=3,"minimum experience of 3 years required  to become a cab driver");
+        exp=x;
     }
 
-    // This is a function to check Education qualification
-    function enter_Education(uint y) public pure{
-        if(y<10){
-            revert ("Minimum required Education should be 10.");
-        }
+    // This is a function to check Driver age
+    function driver_age(uint y) public pure{
+        if(y<21){
+            revert ("Minimum  rating should be 21.");
+        } 
     }
 
     // This is the function to check owner
