@@ -24,7 +24,7 @@ function check_age(uint x) public { ... }
 This line declares a public function named check_age that takes a parameter form of type uint and does not return any value.
 
 # require(x>=25,"total no of cases fought by laywer");
-This line is a condition that checks if cases fought by following lawyer is greater than or equal to 25. If it's not, the function will revert the transaction and display the error message "number of cases must be 25".
+This line is a condition that checks if cases fought by following lawyer is greater than or equal to 25. If it's not, the function will revert the transaction and display the error message "least number of cases must be 25".
 
 Age=x;
 This line shows age as x.
